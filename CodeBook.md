@@ -1,4 +1,4 @@
-#run_analysis.R Code Book
+ #run_analysis.R Code Book
 CodeBook.md created 11/18/2016
 
 
@@ -13,27 +13,27 @@ Please reference the 'README.txt' and 'features_info.txt' files located at http:
 ##run_analysis.R process
 'run_analysis.R' is a set of code that combines the original train and trial data sets to calculate the mean value of the estimates of the mean and standard deviation of the measured features for each subject's activity.
 
-*Downloaded and unzipped data files
-*Added variable labels to training (x_train) and test (x_test) data sets
-*Extracted mean and standard deviations of feature measurement estimates for both training (x_train) and test (x_test) data sets
-*Created column 'set_type' to designate if subject is part of training or testing data set
-*Combined train extracted data (mean and standard deviation calculations) with subjects (y_train) into train_data
-*Combined test extracted data (mean and standard deviation calculations) with subjects (y_test) into test_data
-*Combined training data (train_data) and testing data (test_data) into a single data table (complete_data)
-*Converted activity column values into text labels
-*Melted complete_data and performed mean calculation, resulting in result_data table
-*Exported result_data table as week4_project_results.txt
+* Downloaded and unzipped data files
+* Added variable labels to training (x_train) and test (x_test) data sets
+* Extracted mean and standard deviations of feature measurement estimates for both training (x_train) and test (x_test) data sets
+* Created column 'set_type' to designate if subject is part of training or testing data set
+* Combined train extracted data (mean and standard deviation calculations) with subjects (y_train) into train_data
+* Combined test extracted data (mean and standard deviation calculations) with subjects (y_test) into test_data
+* Combined training data (train_data) and testing data (test_data) into a single data table (complete_data)
+* Converted activity column values into text labels
+* Melted complete_data and performed mean calculation, resulting in result_data table
+* Exported result_data table as week4_project_results.txt
 
 
 ##List of Variables
 
-*subject - denotes the volunteer (values: #1 through #30)
+* subject - denotes the volunteer (values: #1 through #30)
 *set_type - denotes if the subject belonged to the training or test data set (values: 'train' or 'test')
 *activity - denotes the activity performed by the subject (values: 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING')
 
 The numeric variables listed below contain the mean value of the estimates of the mean and standard deviation of the specified feature for each subject's activity.  Note that "-XYZ" '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-*tBodyAcc-mean()-XYZ
-*tBodyAcc-std()-XYZ
+* tBodyAcc-mean()-XYZ
+* tBodyAcc-std()-XYZ
 *tGravityAcc-mean()-XYZ
 *tGravityAcc-std()-XYZ
 *tBodyAccJerk-mean()-XYZ
