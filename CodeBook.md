@@ -1,4 +1,4 @@
- #run_analysis.R Code Book
+a  #run_analysis.R Code Book
 CodeBook.md created 11/18/2016
 
 
@@ -34,42 +34,42 @@ Please reference the 'README.txt' and 'features_info.txt' files located at http:
 The numeric variables listed below contain the mean value of the estimates of the mean and standard deviation of the specified feature for each subject's activity.  Note that "-XYZ" '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 * tBodyAcc-mean()-XYZ
 * tBodyAcc-std()-XYZ
-*tGravityAcc-mean()-XYZ
-*tGravityAcc-std()-XYZ
-*tBodyAccJerk-mean()-XYZ
-*tBodyAccJerk-std()-XYZ
-*tBodyGyro-mean()-XYZ
-*tBodyGyro-std()-XYZ
-*tBodyGyroJerk-mean()-XYZ
-*tBodyGyroJerk-std()-XYZ
-*tBodyAccMag-mean()
-*tBodyAccMag-std()
-*tGravityAccMag-mean()
-*tGravityAccMag-std()
-*tBodyAccJerkMag-mean()
-*tBodyAccJerkMag-std()
-*tBodyGyroMag-mean()
-*tBodyGyroMag-std()
-*tBodyGyroJerkMag-mean()
-*tBodyGyroJerkMag-std()
-*fBodyAcc-mean()-XYZ
-*fBodyAcc-std()-XYZ
-*fBodyAcc-meanFreq()-XYZ
-*fBodyAccJerk-mean()-XYZ
-*fBodyAccJerk-std()-XYZ
-*fBodyAccJerk-meanFreq()-XYZ
-*fBodyGyro-mean()-XYZ
-*fBodyGyro-std()-XYZ
-*fBodyGyro-meanFreq()-XYZ
-*fBodyAccMag-mean()
-*fBodyAccMag-std()
-*fBodyAccMag-meanFreq()
-*fBodyBodyAccJerkMag-mean()
-*fBodyBodyAccJerkMag-std()
-*fBodyBodyAccJerkMag-meanFreq()
-*fBodyBodyGyroMag-mean()
-*fBodyBodyGyroMag-std()
-*fBodyBodyGyroMag-meanFreq()
-*fBodyBodyGyroJerkMag-mean()
-*fBodyBodyGyroJerkMag-std()
-*fBodyBodyGyroJerkMag-meanFreq()
+* tGravityAcc-mean()-XYZ
+* tGravityAcc-std()-XYZ
+* tBodyAccJerk-mean()-XYZ
+* tBodyAccJerk-std()-XYZ
+* tBodyGyro-mean()-XYZ
+* tBodyGyro-std()-XYZ
+* tBodyGyroJerk-mean()-XYZ
+* tBodyGyroJerk-std()-XYZ
+* tBodyAccMag-mean()
+* tBodyAccMag-std()
+* tGravityAccMag-mean()
+* tGravityAccMag-std()
+* tBodyAccJerkMag-mean()
+* tBodyAccJerkMag-std()
+* tBodyGyroMag-mean()
+* tBodyGyroMag-std()
+* tBodyGyroJerkMag-mean()
+* tBodyGyroJerkMag-std()
+* fBodyAcc-mean()-XYZ
+* fBodyAcc-std()-XYZ
+* fBodyAcc-meanFreq()-XYZ
+* fBodyAccJerk-mean()-XYZ
+* fBodyAccJerk-std()-XYZ
+* fBodyAccJerk-meanFreq()-XYZ
+* fBodyGyro-mean()-XYZ
+* fBodyGyro-std()-XYZ
+* fBodyGyro-meanFreq()-XYZ
+* fBodyAccMag-mean()
+* fBodyAccMag-std()
+* fBodyAccMag-meanFreq()
+* fBodyBodyAccJerkMag-mean()
+* fBodyBodyAccJerkMag-std()
+* fBodyBodyAccJerkMag-meanFreq()
+* fBodyBodyGyroMag-mean()
+* fBodyBodyGyroMag-std()
+* fBodyBodyGyroMag-meanFreq()
+* fBodyBodyGyroJerkMag-mean()
+* fBodyBodyGyroJerkMag-std()
+* fBodyBodyGyroJerkMag-meanFreq()
