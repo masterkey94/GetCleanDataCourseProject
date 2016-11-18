@@ -1,4 +1,4 @@
-a  #run_analysis.R Code Book
+#run_analysis.R Code Book
 CodeBook.md created 11/18/2016
 
 
@@ -28,8 +28,8 @@ Please reference the 'README.txt' and 'features_info.txt' files located at http:
 ##List of Variables
 
 * subject - denotes the volunteer (values: #1 through #30)
-*set_type - denotes if the subject belonged to the training or test data set (values: 'train' or 'test')
-*activity - denotes the activity performed by the subject (values: 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING')
+* set_type - denotes if the subject belonged to the training or test data set (values: 'train' or 'test')
+* activity - denotes the activity performed by the subject (values: 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING')
 
 The numeric variables listed below contain the mean value of the estimates of the mean and standard deviation of the specified feature for each subject's activity.  Note that "-XYZ" '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 * tBodyAcc-mean()-XYZ
